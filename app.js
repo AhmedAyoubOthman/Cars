@@ -1,4 +1,4 @@
-console.log('hello my name is ahmed and this is my firt work on js');
+ console.log('hello my name is ahmed and this is my firt work on js');
 
 /* var message="";
 var favoriteKind = prompt('what is your favorite type of cars?');
@@ -53,4 +53,4 @@ for(var i = 0 ; i<numBrands ; i++){
 }
 
 console.log (result)
-document.write(result);
+document.write(result); 

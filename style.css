@@ -1,0 +1,58 @@
+*{margin: 0 ;
+}
+
+
+header{
+ background-color: rgba(54, 20, 14, 0.3 );
+}
+
+
+header h1 {
+margin: 20px 0 20px 60px ;
+text-align: center;
+}
+
+
+header nav ul {
+list-style: none ;
+background-color: rgb(32, 5, 32);
+}
+
+
+header nav ul li {
+display: inline-block;
+background-color: antiquewhite;
+padding: 30px;
+border-radius: 50%;
+border-bottom: none;
+}
+   
+
+header nav ul li a {
+text-decoration: none;  
+}
+
+
+img {
+width: 20%;
+margin: 20px;
+}
+
+
+#mainParagraph{
+color: rgb(56, 12, 97);
+background-color: rgb(194, 165, 211);
+width: fit-content;
+}
+
+
+.paragraphs {
+color: rgb(27, 30, 68);
+background-color: rgb(179, 172, 219);
+margin: right;
+margin-top: 5px;
+width: fit-content;
+}
+
+
+
