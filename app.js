@@ -1,4 +1,4 @@
- console.log('hello my name is ahmed and this is my firt work on js');
+console.log('hello my name is ahmed and this is my firt work on js');
 
 /* var message="";
 var favoriteKind = prompt('what is your favorite type of cars?');
@@ -18,39 +18,47 @@ console.log(favorietKind);
 }
 
 document.write('<h3>' + message + '</h3>'); */
+function favType() {
 
-var order = prompt('What is your favorite type of vehicles electric or hybrid?')
+    var order = prompt('What is your favorite type of vehicles electric or hybrid?')
 
-while (order !== 'hybrid' && order !== 'electric') {
-    order = prompt('Please write only electric or hybrid')
-console.log(order)
+    while (order !== 'hybrid' && order !== 'electric') {
+        order = prompt('Please write only electric or hybrid')
+        console.log(order)
+    }
+    console.log(order)
+
+    var vehicle = '';
+
+    if (order === 'hybrid') {
+        vehicle = '<img src= "pic/hybrid-car.jpg"/> ';
+
+    } else if (order === 'electric') {
+
+        vehicle = '<img src="pic/electric-car.jpg"/>';
+
+
+    }
+    return vehicle;
 }
-console.log(order)
 
-var vehicle = '';
+// console.log(result)
 
-if (order === 'hybrid') {
-    vehicle = '<img src= "pic/hybrid-car.jpg"/> ';
+var render= function (){
 
-} else if (order === 'electric') {
+var result = "";
+var vehicle = favType();
 
-    vehicle = '<img src="pic/electric-car.jpg"/>' ;
+var numBrands = prompt('How many Brands do you want to see?');
 
-
-}
-
-console.log (result)
-
-var result ="";
-
-
-var numBrands =prompt('How many Brands do you want to see?');
-
-for(var i = 0 ; i<numBrands ; i++){
+for (var i = 0; i < numBrands; i++) {
     console.log(i);
     result = result + vehicle;
-    console.log (result)
+    console.log(result)
 }
 
-console.log (result)
-document.write(result); 
+console.log(result)
+return document.write(result); 
+
+
+}
